@@ -2,6 +2,8 @@
 
 A simple, responsive (a word which here means 'snappy') test runner. Like GoConvey, but smarter about what package to run, and with a much simpler interface, and at a fraction of the LOC.
 
+All credit goes to smartystreets for creating the original version of this library.  
+
 ## Features
 
 - Runs `make` or `go test` or any command you supply whenever a .go file in any package under the current directory changes.
