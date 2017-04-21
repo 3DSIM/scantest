@@ -10,7 +10,7 @@ A simple, responsive (a word which here means 'snappy') test runner. Like GoConv
 ### Installation
 
 ```
-go get github.com/smartystreets/scantest
+go get github.com/3dsim/scantest
 ```
 
 ### Console Runner Execution
