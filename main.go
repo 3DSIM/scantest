@@ -84,7 +84,6 @@ func (this *Scanner) Scan() bool {
 	time.Sleep(time.Millisecond * 250)
 	newState := this.checksum()
 	defer func() { this.state = newState }()
-	write(".")
 	return newState != this.state
 }
 
